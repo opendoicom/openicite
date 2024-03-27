@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openicite"
+version = "0.1.2"
+authors = [
+  { name="phage-GP", email="mirscope@outlook.com" },
+]
+description = "A python wrapper for interacting with the iCite API"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/opendoicom/openicite/"
+Issues = "https://github.com/opendoicom/openicite/issues"
